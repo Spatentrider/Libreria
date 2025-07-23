@@ -48,4 +48,3 @@ public class LibroController {
         return rimosso ? ResponseEntity.noContent().build() : ResponseEntity.notFound().build();
     }
 }
-
